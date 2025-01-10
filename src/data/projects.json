@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Hardware 2FA",
+    "imageSrc": "projects/hardware-2fa.jpeg",
+    "description": "A hardware-based TOTP generator using ESP32, with OLED display and web-based config.",
+    "skills": ["ESP32", "SSD1306 OLED Display", "DS1302 RTC Module", "WebServer"],
+    "source": "https://github.com/sponge-24/hardware_2fa"
+  },
+  {
+    "title": "Smart Eye",
+    "imageSrc": "projects/smart-eye.jpg",
+    "description": "Compact system using Raspberry Pi to assist visually impaired with image description and audio output.",
+    "skills": ["Python", "Azure SDK", "Google SDK", "Raspberry Pi", "Embedded Systems"],
+    "source": "https://github.com/sponge-24/Smart-Eye"
+  },
+  {
+    "title": "Entity Value Extraction",
+    "imageSrc": "projects/entity-value-extraction.png",
+    "description": "Extracts entity values from product images using OCR and NER with OpenCV, PIL, spaCy, and multiprocessing.",
+    "skills": ["Python", "OpenCV", "PIL", "spaCy", "EasyOCR", "Multiprocessing"],
+    "source": "https://github.com/sponge-24/entity_value_extraction"
+  },
+  {
+    "title": "Ethernet Toggler",
+    "imageSrc": "projects/ethernet-toggler.png",
+    "description": "A lightweight Python app to toggle Ethernet connection directly from the system tray with one-click functionality.",
+    "skills": ["Python", "netsh Command", "System Tray", "Task Scheduler"],
+    "source": "https://github.com/sponge-24/ethernet_toggler"
+  },
+  {
+    "title": "Sports Classification and Pose Estimation",
+    "imageSrc": "projects/sports-classification.png",
+    "description": "Classifying sports activities using YOLOv5 and performing pose estimation on video data.",
+    "skills": ["YOLOv5", "Pose Estimation", "OpenCV", "Mediapipe", "Python"],
+    "source": "https://github.com/sponge-24/SportVidClassifier"
+  }
+    
+]

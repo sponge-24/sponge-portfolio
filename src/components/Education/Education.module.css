@@ -1,0 +1,91 @@
+@import '../../vars.css';
+
+.mainContainer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+    background-color: var(--color-bg);
+    margin-top: 60px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container{
+    flex: 1;
+    background-color: rgba(50, 50, 50, 0.45);
+    border-radius: 20px;
+    padding: 73px;
+}
+.title{
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    font-family: var(--font-ubuntu);
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.educationItems{
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.educationItem{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    border-radius: 20px;
+    list-style: none;
+    padding: 25px;
+    background-color: var(--color-bg);
+    background-image: linear-gradient(90deg, rgba(165,215,232,0.42) 0%, rgba(255,255,255,0) 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+
+.educationItem:hover{
+    background-size: 100% 100%;
+    background-color: transparent;
+}
+.educationItemImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.educationItemText{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.educationItemText h3, p{
+    font-family: var(--font-ubuntu);
+    font-size: 17px;
+}
+
+.educationItemText p{
+    color: var(--color-subtext)
+}
+
+@media screen and (max-width: 830px){
+    .mainContainer{
+        flex-direction: column;
+    }
+    .educationItem{
+        flex-direction: column;
+    }
+}

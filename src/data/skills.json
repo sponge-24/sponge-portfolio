@@ -1,0 +1,63 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.svg"
+  }
+  ,
+  {
+    "title": "C",
+    "imageSrc": "skills/c-original.svg"
+  }
+  ,
+  {
+    "title": "C ++",
+    "imageSrc": "skills/c.svg"
+  }
+  ,
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.svg"
+  }
+  ,
+  {
+    "title": "Bash",
+    "imageSrc": "skills/bash.svg"
+  }
+  ,
+  {
+    "title": "Github",
+    "imageSrc": "skills/github.svg"
+  }
+  ,
+  {
+    "title": "Azure",
+    "imageSrc": "skills/microsoft-azure.svg"
+  }
+  ,
+  {
+    "title": "Wireshark",
+    "imageSrc": "skills/wireshark-alt.svg"
+  }
+  ,
+  {
+    "title": "Numpy",
+    "imageSrc": "skills/numpy.svg"
+  }
+
+]

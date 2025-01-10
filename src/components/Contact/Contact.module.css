@@ -1,0 +1,27 @@
+@import '../../vars.css';
+
+.container{
+    margin-top: 60px;
+    display: flex;
+    background-color: #0e7c2b;
+    color: var(--color-text);
+    padding: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.image{
+    width: 20px;
+    height: 20px;
+}
+
+.ImgContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 9px;
+}

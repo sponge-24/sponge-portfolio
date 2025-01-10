@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root{
+    /* colors */
+    --color-text: rgb(250,250,250);
+    --color-subtext: rgb(210,210,210);
+    --color-primary: #1aa53f;
+    --color-secondary: #19376d;
+    --color-dark: #0b2447;
+    --color-bg: #001100;
+
+    /* font  */
+    --font-ubuntu: "Ubuntu Mono";
+}
+
+/* #001100 */
