@@ -41,13 +41,13 @@
   }
   ,
   {
-    "title": "Github",
+    "title": "Git",
     "imageSrc": "skills/github.svg"
   }
   ,
   {
     "title": "Azure",
-    "imageSrc": "skills/microsoft-azure.svg"
+    "imageSrc": "skills/azure.png"
   }
   ,
   {
