@@ -17,6 +17,7 @@
 .title{
     font-size: 17px;
     font-weight: 700;
+    font-family: var(--font-ubuntu);
 }
 
 .description{
@@ -65,4 +66,26 @@
     width: 33px;
     height: 30px;
     border-radius: 100%;
+}
+
+@media screen and (max-width: 830px){
+    .title{
+        font-size: 15px;
+    }
+    .description{
+        font-size: 15px;
+    }
+    .skill{
+        font-size: 15px;
+    }
+    .container{
+        background-color: rgba(50, 50, 50, 0.45);
+    }
+    .link{
+        font-size: 15px;
+    }
+    .linkImg{
+        width: 28px;
+        height: 25px;
+    }
 }

@@ -13,14 +13,14 @@ export const Education = () => {
                     <img className={styles.educationItemImg} src={getImageUrl("education/educationSNU.JPG")} alt="Shiv Nadar University Chennai" />
                     <div className={styles.educationItemText}>
                         <h3>Shiv Nadar University Chennai</h3>
-                        <p>Bachelor of Technology - B.Tech, Computer Science and engineering Grade : 9.25</p>
+                        <p>B.Tech Computer Science and engineering <br />Grade : 9.25</p>
                     </div>
                 </li>
                 <li  className={styles.educationItem}>
                     <img className={styles.educationItemImg} src={getImageUrl("education/educationCBSE.JPG")} alt="Central Board of Secondary Education" />
                     <div className={styles.educationItemText}>
                         <h3>Central Board of Secondary Education</h3>
-                        <p>High School Grade : 91.4 %</p>
+                        <p>High School <br /> Grade : 91.4 %</p>
                     </div>
                 </li>
             </ul>

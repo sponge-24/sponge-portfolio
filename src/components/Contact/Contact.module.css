@@ -12,8 +12,6 @@
     justify-content: space-evenly;
 }
 
-
-
 .image{
     width: 20px;
     height: 20px;
@@ -24,4 +22,21 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 9px;
+}
+
+.footer{
+    font-family: var(--font-ubuntu);
+}
+
+@media screen and (max-width: 830px){
+    .footer{
+        font-size: 15px;
+    }
+    .container{
+        gap: 12px;
+    }
+    .image{
+        width: 18px;
+        height: 18px;
+    }
 }

@@ -35,3 +35,12 @@
     content: "→";
     margin-right: 15px;
 }
+
+@media screen and (max-width: 830px){
+    .title{
+        font-size: 23px;
+    }
+    .award{
+        font-size: 15px;
+    }
+}
