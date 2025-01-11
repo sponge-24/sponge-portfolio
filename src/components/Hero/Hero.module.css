@@ -26,8 +26,11 @@
     font-size: 900;
     margin-bottom: 33px;
     font-family: var(--font-ubuntu);
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 6s ease-in-out infinite;
 }
-
 .description{
     font-size: 27px;
     font-family: var(--font-ubuntu);
@@ -65,6 +68,13 @@
         transform: translate(0, -0px);
     }
 }
+
+@keyframes typing {
+    0% { width: 0 }
+    30% { width: 100% }
+    80% { width: 100% }
+    100% { width: 0 }
+  }
 
 @media screen and (max-width: 830px) {
     .container{
