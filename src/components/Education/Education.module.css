@@ -99,6 +99,7 @@
     }
     .educationItems{
         gap: 15px;
+        width: 100%;
     }
     .educationItemText h3, p{
         font-size: 14px;
